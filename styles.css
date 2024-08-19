@@ -1,0 +1,58 @@
+/* DONT DELETE THIS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* WRITE YOUR CODE BELOW */
+body {
+  background-color: grey;
+}
+
+h1 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+h2 {
+  position: absolute;
+  top: 80px;
+  left: 5px;
+  font-size: small;
+  font-weight: bold;
+}
+
+div:first-child {
+  background-color: teal;
+}
+
+div:last-child {
+  background-color: tomato;
+}
+
+.colorbox {
+  height: 350px;
+  width: 200px;
+  margin: 10px;
+  top: 100px;
+  left: 100px;
+  background-color: white;
+  position: relative;
+}
+
+.topbar {
+  height: 20px;
+  width: 190px;
+  background-color:black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.bottombar {
+  height: 220px;
+  width: 190px;
+  background-color:black;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
